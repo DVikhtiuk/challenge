@@ -1,5 +1,5 @@
 import { loadStripe } from '@stripe/stripe-js';
-import { stripeKey } from '../config';
+import { stripeKey } from '../config/index';
 
 let stripePromise;
 const getStripe = () => {

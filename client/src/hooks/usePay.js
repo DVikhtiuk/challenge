@@ -7,7 +7,7 @@ import {
     universeIndividual,
     universeGroup,
     universeBusiness
-} from "../config"
+} from "../config/index"
 
 export default function usePay() {
 
